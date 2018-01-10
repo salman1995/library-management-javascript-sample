@@ -1,0 +1,151 @@
+nav{
+	background-color: #48795ceb;
+    display: flow-root;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	padding: 15px;
+	display: inline-block;
+}
+nav ul li a:hover{
+	background-color: #2f4839;
+}
+nav ul li.active{
+	background-color: #2f4839;
+}
+nav ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+nav ul.nav-left{
+	float: left;
+}
+nav ul.nav-right{
+	float: right;
+}
+form h3{
+	text-align: center;
+    padding: 10px;
+    background-color: #568469;
+    color: #fff;
+    margin-top: 0px;
+    border: 1px solid #fff;
+	
+}
+section{
+	clear: both;
+	padding: 10px;
+}
+form[name=addBookForm]{
+	position: absolute;
+    z-index: 9999999;
+    border: 1px solid #568469;
+	display: none;
+	left: 25%;
+    top: 10%;
+    background-color: #efefef;
+}
+.table{
+	width: 100%;
+}
+.table th{
+	text-align: left;
+	color: #fff;
+	background-color: #568469;
+}
+.table th,.table td{
+	padding: 5px;
+}
+.table  tr:nth-child(even) {
+	background: #cccccc36;
+}
+.table tr:nth-child(odd) {
+	background: #FFF;
+}
+.errorText{
+	color: red;
+}
+.form-group{
+	margin: 5px;
+    padding: 5px;
+}
+.form-control{
+	width: 96%;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.width-40{
+  width: 100%;
+}
+.center{
+	margin: auto;
+}
+form  .btn-success{
+	float: right !important;
+}
+.btn{
+	text-align: center;
+    min-width: 110px;
+    float: left;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+.btn:hover{
+   font-size: 16px;
+}
+.btn-success{
+    background-color: #4CAF50;
+    color: #fff;
+}
+.btn-danger{
+	background-color: #e05f55;
+    color: #fff;
+	
+}
+.btn-warning{
+	background-color: #c7ab55;
+    color: #fff;
+}
+.btn-primary{
+	background-color: #00bcd4;
+    color: #fff;
+}
+#closeForm{
+	float: right;
+	cursor: pointer;
+}
+#messages{
+	padding: 10px;
+	display: none;
+}
+.success{
+	background-color: #b5e0b5;
+    color: #0f130f;
+}
+.info{
+	background-color: #ffdd7b;
+    color: #655731;
+}
+#overlay{
+display: none;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000054;
+    z-index: 999;
+    top: 0;
+}
+@media(min-width : 768px){
+	.width-40{
+	  width: 50%;
+	}
+}
